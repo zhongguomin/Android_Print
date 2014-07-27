@@ -1,4 +1,6 @@
-package com.example.android_print;
+package com.thtfit.print.view;
+
+import com.example.android_print.R;
 
 import android.os.Bundle;
 import android.app.Activity;
