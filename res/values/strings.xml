@@ -4,5 +4,11 @@
     <string name="app_name">Android_Print</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="android_print_desc">This is Android Print Demo APP.\n include bluetooth print ... </string>
+    <string name="bluetooth_print">Bluetooth Print</string>
+    <string name="bluetooth_conn">Bluetooth Connection</string>
+    <string name="print_text">Text Print</string>
+    <string name="print_image">Image Print</string>
 
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android_print"
+    package="com.thtfit.print"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,6 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name="com.thtfit.print.view.BluetoothPrintActivity"/>
+        <activity android:name="com.thtfit.print.view.BluetoothConnActivity" />
+        <activity android:name="com.thtfit.print.view.PrintTextActivity" />
+        <activity android:name="com.thtfit.print.view.PrintImageActivity" />
+        
     </application>
 
 </manifest>

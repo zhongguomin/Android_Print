@@ -7,24 +7,26 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-
-    <TextView
-        android:id="@+id/android_print_desc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/android_print_desc" />
-    
-    <View
-        android:id="@+id/divider_line"
-        android:layout_width="fill_parent"
-        android:layout_height="1px"
-        android:background="?android:attr/listDivider"
-        android:layout_below="@+id/android_print_desc" />
     
     <Button  
-		android:id="@+id/bluetooth_print"
+		android:id="@+id/bluetooth_conn"
         android:layout_width="wrap_content"
 		android:layout_height="wrap_content" 
-		android:layout_below="@+id/divider_line"
-        android:text="@string/bluetooth_print" />  
+        android:text="@string/bluetooth_conn" />
+    
+    <Button  
+		android:id="@+id/print_text"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/bluetooth_conn"
+        android:text="@string/print_text" />  
+    
+    <Button  
+		android:id="@+id/print_image"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_below="@+id/print_text"
+        android:text="@string/print_image" />  
+
+    
 </RelativeLayout>
