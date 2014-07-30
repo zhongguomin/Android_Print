@@ -3,7 +3,7 @@ package com.thtfit.print.service;
 /**
  * 
  */
-public interface PrintService {
+public interface MyPrintService {
 
 	void printText();
 	void printImage();

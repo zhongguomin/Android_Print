@@ -1,6 +1,6 @@
 package com.thtfit.print.service;
 
-public class BluetoothPrintService implements PrintService {
+public class BluetoothPrintService implements MyPrintService {
 
 	@Override
 	public void printText() {
